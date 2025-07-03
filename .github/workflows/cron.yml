@@ -1,4 +1,4 @@
-name: Run main.py every minute
+name: Running Project
 
 on:
   push:                 # runs on every push
