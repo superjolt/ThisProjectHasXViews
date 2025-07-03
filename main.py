@@ -28,9 +28,10 @@ views = project.views
 loves = project.loves
 faves = project.favorites
 remix = project.remix_count
+comments = len(project.comments())
 
 title = f"This Project Has {views} Views, {loves} Loves and {faves} Faves"
-instructions = f"And this has {remix} remixes."
+instructions = f"And this has {remix} remixes.\nAnd {comments} comments."
 
 if not project.title == title and not project.instructions == instructions:
     project.set_title(title)
