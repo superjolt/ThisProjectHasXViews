@@ -11,9 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Notify start
-        run: echo "✅ Workflow started at $(date)"
-
       - name: Checkout repository
         uses: actions/checkout@v3
 
